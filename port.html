@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M Nauman | AI & ML Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: #e5e7eb;
+    }
+    .container { max-width: 1200px; margin: auto; padding: 60px 20px; }
+
+    /* HERO */
+    header {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: 40px; margin-bottom: 90px;
+    }
+    .hero-text h1 { font-size: 52px; margin: 0; color: #38bdf8; }
+    .typing { color: #cbd5f5; font-size: 22px; height: 28px; }
+    .hero-text p { max-width: 520px; line-height: 1.7; color: #94a3b8; }
+
+    .hero-links a {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 48px; height: 48px; margin: 18px 12px 0 0;
+      border-radius: 50%; border: 2px solid #38bdf8; background: #020617;
+      transition: .3s;
+    }
+    .hero-links img { width: 22px; filter: invert(1); }
+    .hero-links a:hover { background:#38bdf8; transform: translateY(-4px); }
+    .hero-links a:hover img { filter: invert(0); }
+
+    .hero-img img {
+      width: 260px; height: 260px; object-fit: cover; border-radius: 50%;
+      border: 4px solid #38bdf8; box-shadow: 0 0 40px rgba(56,189,248,0.45);
+    }
+
+    /* SECTIONS */
+    section { margin-bottom: 80px; }
+    h2 { font-size: 32px; color:#38bdf8; margin-bottom: 30px; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 24px; }
+    .card {
+      background:#020617; padding:25px; border-radius:18px;
+      box-shadow:0 10px 30px rgba(0,0,0,.45);
+    }
+    .card span {
+      display:inline-block; background:#1e293b; padding:8px 14px;
+      border-radius:20px; margin:6px 6px 0 0; font-size:14px;
+    }
+
+    /* PROJECTS */
+    .project img {
+      width:100%; height:150px; object-fit:cover; border-radius:12px; margin-bottom:12px;
+    }
+
+    /* RESUME BUTTON */
+    .resume-btn {
+      display:inline-block; margin-top:20px; padding:14px 30px;
+      background:#38bdf8; color:#020617; border-radius:30px;
+      font-weight:600; text-decoration:none;
+    }
+
+    /* FLOATING WHATSAPP */
+    .whatsapp-float {
+      position:fixed; bottom:25px; right:25px; width:60px; height:60px;
+      background:#25D366; border-radius:50%; display:flex;
+      align-items:center; justify-content:center; box-shadow:0 10px 25px rgba(0,0,0,.5);
+      z-index:999;
+    }
+    .whatsapp-float img { width:30px; filter: invert(1); }
+
+    footer { text-align:center; padding:30px; color:#94a3b8; border-top:1px solid #1e293b; }
+  </style>
+</head>
+<body>
+
+<!-- FLOATING WHATSAPP -->
+<a class="whatsapp-float" href="https://whatsapp.com/channel/0029VbB5Dc50bIdoFmnYza3E" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
+</a>
+
+<div class="container">
+
+<header>
+  <div class="hero-text">
+    <h1>M Nauman (Gokboru)</h1>
+    <div class="typing" id="typing"></div>
+    <p>
+      I build intelligent AI systems, real-world ML solutions, and modern digital products
+      combining data, creativity, and engineering.
+    </p>
+
+    <div class="hero-links">
+      <a href="https://www.linkedin.com/in/nomangokboru" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"></a>
+      <a href="https://github.com/Nauman804" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"></a>
+      <a href="https://facebook.com/YOUR_FACEBOOK_USERNAME" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"></a>
+    </div>
+
+    <a class="resume-btn" href="M_Nauman_Anwar_CV.pdf" target="_blank">Download Resume</a>
+  </div>
+
+  <div class="hero-img">
+    <img src="image.jpg" alt="M Nauman">
+  </div>
+</header>
+
+<section>
+  <h2>Technical Expertise</h2>
+  <div class="grid">
+    <div class="card"><h4>Programming</h4><span>Python</span></div>
+    <div class="card"><h4>AI & ML</h4><span>Machine Learning</span><span>Deep Learning</span><span>NLP</span><span>Computer Vision</span></div>
+    <div class="card"><h4>Tools</h4><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span><span>TensorFlow</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Featured Projects</h2>
+  <div class="grid">
+    <div class="card project">
+      <img src="flask .png">
+      <h4>Flask App</h4>
+      <p>A dynamic chatbot application built with Flask for intelligent user interactions.</p>
+    </div>
+    <div class="card project">
+      <img src="weather project2.png">
+      <h4>Weather Prediction</h4>
+      <p>An AI-powered weather prediction system leveraging image analysis for accurate forecasts.</p>
+    </div>
+    <div class="card project">
+      <img src="7.png">
+      <h4>Heart Disease Prediction</h4>
+      <p>A machine learning model for heart disease prediction using advanced data classification techniques.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Career Vision</h2>
+  <div class="card">
+    <p>
+      To become a high-impact AI & Machine Learning Engineer building scalable,
+      intelligent systems for real-world challenges.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 M Nauman (Gokboru) • AI Portfolio
+</footer>
+
+</div>
+
+<script>
+  const roles = [
+    "AI Student",
+    "Machine Learning Engineer",
+    "Deep Learning Enthusiast",
+    "AI Problem Solver"
+  ];
+  let i = 0, j = 0, current = "", isDeleting = false;
+  const typing = document.getElementById("typing");
+
+  function typeEffect() {
+    if (!isDeleting && j <= roles[i].length) {
+      current = roles[i].substring(0, j++);
+    }
+    if (isDeleting && j >= 0) {
+      current = roles[i].substring(0, j--);
+    }
+    typing.textContent = current;
+
+    if (j === roles[i].length) isDeleting = true;
+    if (isDeleting && j === 0) { isDeleting = false; i = (i + 1) % roles.length; }
+    setTimeout(typeEffect, isDeleting ? 60 : 120);
+  }
+  typeEffect();
+</script>
+
+</body>
+</html>
